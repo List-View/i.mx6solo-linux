@@ -7,7 +7,7 @@ do_env(){
 }
 
 do_make(){
-	make -j4
+	make uImage -j4
 	cp arch/arm/boot/uImage ~/data/
 }
 
